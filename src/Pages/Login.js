@@ -9,11 +9,11 @@ export default function CreateLogin() {
     <>
       <section>
         <header>Do Something!</header>
-        <h2>The gift of your time is priceless.</h2>
+        <p>The gift of your time is priceless.</p>
       </section>
       <section>
         <img />
-        <section>
+        <section class="login-input">
           <input placeholder="email" />
           <input placeholder="password" />
           <button>LOGIN</button>

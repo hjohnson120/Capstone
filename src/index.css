@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+
 :root {
   font: 16px / 1 sans-serif;
   background-color: #e8e6f1;
@@ -11,11 +13,14 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  font-family: 'Cinzel', serif;
+  text-align: center;
 }
 
 header {
   margin-top: 5%;
   font-size: 3rem;
+  font-family: 'Cinzel', serif;
 }
 
 hr {
@@ -31,4 +36,10 @@ hr {
   margin-left: 75%;
   list-style: none;
   margin-top: 2%;
+}
+
+.login-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
