@@ -2,7 +2,7 @@
 
 :root {
   font: 16px / 1 sans-serif;
-  background-color: #e8e6f1;
+  background-color: #f9f7f6;
 }
 
 html {
@@ -25,9 +25,9 @@ header {
 
 hr {
   background-color: #096067;
-  border-color: #096067;
   margin: none;
-  height: 5px;
+  height: 1px;
+  max-width: 300px;
 }
 
 .nav-bar {
@@ -44,10 +44,18 @@ hr {
   align-items: center;
 }
 
-.Oppurtunity-container {
-  border: solid 4px black;
+.Opportunity-container {
+  padding: 0.5%;
+  border: 1px;
   border-radius: 20px;
   max-width: 500px;
   justify-items: center;
   margin: 3%;
+  background-color: #a1c0be;
+  box-shadow: 5px 10px 8px #888888;
+}
+.opportunity-info {
+  text-align: left;
+  margin-left: 4%;
+  margin-bottom: 4%;
 }
