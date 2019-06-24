@@ -43,3 +43,11 @@ hr {
   flex-direction: column;
   align-items: center;
 }
+
+.Oppurtunity-container {
+  border: solid 4px black;
+  border-radius: 20px;
+  max-width: 500px;
+  justify-items: center;
+  margin: 3%;
+}
