@@ -10,8 +10,7 @@ export default function Results() {
         <NavBar />
         <header>Do Something!</header>
       </section>
-      <section>
-        <h1> Opportunities...</h1>
+      <section className="selected-opps">
         <OpportunitiesContainer />
       </section>
     </>

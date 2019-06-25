@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
+import NavBar from '../components/NavBar'
 
 export default function CreateLogin() {
   const [login, getLogin] = useState('')
@@ -8,11 +9,11 @@ export default function CreateLogin() {
   return (
     <>
       <section>
-        <header>Do Something!</header>
-        <p>The gift of your time is priceless.</p>
+        <NavBar />
+        <header>Do Something</header>
       </section>
-      <section>
-        <img />
+      <section className="login-section">
+        <h1>The gift of your time is priceless</h1>
         <section class="login-input">
           <input placeholder="email" />
           <input placeholder="password" />

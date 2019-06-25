@@ -10,10 +10,10 @@ class NavBar extends Component {
           <li>
             <Link to="/">Login Page</Link>
           </li>
-          {/* <li>
-            <Link to="/DemunJones">Demun Jones</Link>
-          </li>
           <li>
+            <Link to="/Home">Go Home</Link>
+          </li>
+          {/* <li>
             <Link to="/Kygo">Kygo</Link>
           </li> */}
         </ul>
