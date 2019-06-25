@@ -17,7 +17,7 @@ export default function Home() {
         </section>
         <section className="home-section">
           <h2>Volunteer Opportunities You're Signed Up For </h2>
-          <hr />
+          <i class="fas fa-arrow-right" />
           <OpportunitiesContainer />
         </section>
       </div>
