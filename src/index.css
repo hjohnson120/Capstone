@@ -48,11 +48,10 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  text-align: right;
   list-style: none;
   margin-top: 3%;
   max-width: 240px;
-  margin-left: 80%;
+  /* margin-left: 80%; */
   padding-top: 1%;
 }
 
@@ -146,4 +145,18 @@ a:hover {
   width: 100%;
   display: flex;
   margin-top: 2%;
+}
+
+@media (max-width: 600px) {
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+  }
+  .opportunity-container {
+    width: 70%;
+  }
+  header {
+    width: 100%;
+  }
 }
