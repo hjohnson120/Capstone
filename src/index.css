@@ -117,13 +117,19 @@ input {
   margin-bottom: 0%;
 }
 
+.registered-opps {
+  max-width: 400px;
+  margin-top: -5%;
+}
+
 .home-search {
-  margin-left: 4%;
-  margin-right: 2%;
+  margin-left: 2%;
+  margin-right: 15%;
   box-shadow: 5px 10px 8px #888888;
   border-radius: 15px;
   background-color: #b5a89b;
   height: 200px;
+  width: 400px;
   margin-top: 10%;
   padding: 1%;
 }
@@ -144,19 +150,30 @@ a:hover {
 .home-section {
   width: 100%;
   display: flex;
-  margin-top: 2%;
+  justify-content: center;
 }
 
 @media (max-width: 600px) {
-  body {
+  /* body {
     display: flex;
     flex-wrap: wrap;
     margin: 0%;
-  }
+  } */
   .opportunity-container {
     width: 70%;
   }
   header {
     width: 100%;
+  }
+  .home-search {
+    display: none;
+  }
+
+  .home-section {
+    display: flex;
+  }
+  .mobile-view {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
